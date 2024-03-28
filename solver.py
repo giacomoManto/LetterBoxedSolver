@@ -78,7 +78,7 @@ if __name__ == "__main__":
     tree = loadToList("Collins Scrabble Words (2015).txt")
     
     best = 0
-    box = LetterBoxed("hecngtakziow")
+    box = LetterBoxed("nblumheofvrt")
     print(solve(tree, box))         
         
     
